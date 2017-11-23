@@ -1,4 +1,4 @@
-html {
+body {
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
@@ -9,10 +9,13 @@ html {
 
 /*Header styling*/
 
-header {
+.top-navigation {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+header {
   position: fixed;
   z-index: 1;
   height: 69px;
@@ -28,4 +31,5 @@ header img {
 nav {
   text-align: right;
   display: block;
+
 }
