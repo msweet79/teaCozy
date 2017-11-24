@@ -21,6 +21,7 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seasell;
+  align-items: center;
 }
 
 header img {
@@ -30,6 +31,16 @@ header img {
 
 nav {
   text-align: right;
+  flex-grow: 1;
   display: block;
+  align-items: center;
+}
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
 }
