@@ -58,6 +58,19 @@ a {
   background-image: url(./images/img-mission-background.jpg);
 }
 
-.mission_content {
+#mission .mission_container {
   background-color: black;
+  width: 100%;
+}
+
+h2 {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
 }
