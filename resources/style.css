@@ -38,7 +38,7 @@ header img {
 
 nav {
   text-align: right;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   flex-grow: 1;
 }
 
@@ -46,6 +46,7 @@ nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+  text-decoration: underline;
 }
 
 /* had to add text color to override the hyperlink auto formating*/
