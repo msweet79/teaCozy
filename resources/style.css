@@ -90,3 +90,12 @@ h4 {
   display: block;
   font-weight: bold;
 }
+
+/*Team of the month section*/
+
+#tea {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
