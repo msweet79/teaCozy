@@ -117,4 +117,16 @@ h4 {
   background-image: url(./images/img-locations-background.jpg);
   height: 500px;
   width: 100%;
+  padding-top: 50px;
+}
+
+.location-box {
+  background-color: black;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 20px;
+  opacity: 1.0;
 }
