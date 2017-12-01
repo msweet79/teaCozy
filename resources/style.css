@@ -104,4 +104,17 @@ h4 {
   height: 200px;
   width: 300px;
   display: block;
+  margin: 10px;
+}
+
+#tea span {
+  margin-top: 10px;
+}
+
+/*Location section*/
+
+#locations {
+  background-image: url(./images/img-locations-background.jpg);
+  height: 500px;
+  width: 100%;
 }
