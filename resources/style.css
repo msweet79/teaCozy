@@ -6,6 +6,8 @@ body {
   background-color: black;
   font-size: 22px;
   text-align: center;
+  display: block;
+  margin: 0px;
 }
 
 .flex-container {
@@ -83,11 +85,15 @@ div {
 }
 
 h2 {
+  margin: 0px;
+  padding: 10px;
   display: block;
   font-weight: bold;
 }
 
 h4 {
+  margin: 0px;
+  padding: 10px;
   display: block;
   font-weight: bold;
 }
@@ -119,6 +125,13 @@ h4 {
   height: 500px;
   width: 100%;
   padding-top: 50px;
+}
+
+h3 {
+  margin: 0px;
+  padding: 10px;
+  display: block;
+  font-weight: bold;
 }
 
 .location-box {
