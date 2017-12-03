@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 h2, h3, h4 {
@@ -129,4 +130,19 @@ h4 {
   justify-content: center;
   margin: 5px 20px;
   opacity: 1.0;
+}
+
+/*Corp info section*/
+#corp-info {
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*footer section*/
+footer {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
 }
